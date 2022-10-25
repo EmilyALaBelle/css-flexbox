@@ -4,11 +4,15 @@
     border-width: 3mm;
     display: flex;
     flex-direction: column;
+
 }
 .hero-container{
     border-style: solid;
     border-color: blue;
     border-width: 3mm;
+    height: 500px;
+    display: flex;
+    justify-content: center;
 }
 
 #content-container{
