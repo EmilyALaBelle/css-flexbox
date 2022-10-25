@@ -20,3 +20,9 @@ border-style: solid;
 border-color: green;
 border-width: 3mm;
 }
+
+.card-container{
+    border-style: solid;
+    border-color: purple;
+    border-width: 3mm;
+}
