@@ -4,25 +4,29 @@
     border-width: 3mm;
     display: flex;
     flex-direction: column;
-
+    padding: 20px;
 }
-.hero-container{
+
+.hero-container {
     border-style: solid;
     border-color: blue;
     border-width: 3mm;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0px 0px 20px 0px;
 }
 
-#content-container{
-border-style: solid;
-border-color: green;
-border-width: 3mm;
-display: flex;
+#content-container {
+    border-style: solid;
+    border-color: green;
+    border-width: 3mm;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.card-container{
+.card-container {
     border-style: solid;
     border-color: purple;
     border-width: 3mm;
@@ -31,6 +35,12 @@ display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
+    width: 45%;
+    margin: 1%;
+}
+
+img {
+    width: 90%;
 }
 
 
