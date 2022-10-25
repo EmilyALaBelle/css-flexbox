@@ -19,10 +19,14 @@
 border-style: solid;
 border-color: green;
 border-width: 3mm;
+display: flex;
 }
 
 .card-container{
     border-style: solid;
     border-color: purple;
     border-width: 3mm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
