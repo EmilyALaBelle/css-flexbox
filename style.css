@@ -1,8 +1,18 @@
 .main-flex-container {
     border-style: solid;
     border-color: red;
+    border-width: 3mm;
+    display: flex;
+    flex-direction: column;
 }
 .hero-container{
     border-style: solid;
     border-color: blue;
+    border-width: 3mm;
+}
+
+#content-container{
+border-style: solid;
+border-color: green;
+border-width: 3mm;
 }
